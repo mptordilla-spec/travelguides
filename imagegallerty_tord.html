@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>Image Gallery</title>
+<style>
+body {
+       font-family: Arial, sans-serif; 
+         background-image: url("https://i.pinimg.com/736x/8a/3a/74/8a3a74afb8271afc662ac436740d4883.jpg");
+         color: #253E66;
+}
+    
+img {
+width: 200px;
+height: 180px;
+margin: 5px;
+position: relative;
+border: 6px solid rgb(255, 180, 226);      
+border-radius: 12px;
+ padding: 0px; 
+}
+
+</style>
+</head>
+<body>
+<script>
+document.writeln("<h1>TOURIST HI</h1>");
+document.writeln("<img id='pou' src='https://i.pinimg.com/736x/bb/d9/0c/bbd90c636c4bc779d93f02b11e72b86a.jpg'>");
+document.writeln("<br><br>"); document.writeln("<button onclick=\"document.getElementById('pou').src='https://i.pinimg.com/736x/61/fc/6e/61fc6ee09dfe55bc2dd4acade5eac376.jpg'\">IMAGE 1</button>");
+document.writeln("<button onclick=\"document.getElementById('pou').src='https://i.pinimg.com/736x/c3/ca/d3/c3cad351413f677c30cd13d73d205782.jpg'\">IMAGE 2</button>");
+document.writeln("<button onclick=\"document.getElementById('pou').src='https://i.pinimg.com/1200x/f6/87/f6/f687f6559e55ef522383fdb461fa09ca.jpg'\">IMAGE 3</button>");
+document.writeln("<button onclick=\"document.getElementById('pou').src='https://i.pinimg.com/736x/bb/d9/0c/bbd90c636c4bc779d93f02b11e72b86a.jpg'\">IMAGE 4</button>");
+document.writeln("<br><br>"); document.writeln("<button onclick=\"document.getElementById('pou').style.filter='blur(5px)'\">Inject</button>");
+document.writeln("<button onclick=\"document.getElementById('pou').style.filter='grayscale(100%)'\">Inject</button>");
+document.writeln("<button onclick=\"document.getElementById('pou').style.filter='brightness(0%)'\">Inject</button>");
+document.writeln("<button onclick=\"document.getElementById('pou').style.filter='invert(100%)'\">Inject</button>");
+document.writeln("<button onclick=\"document.getElementById('pou').style.filter='none'\">NORMAL</button>");
+</script>
+</body>
+</html>

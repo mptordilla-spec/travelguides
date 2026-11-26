@@ -1,0 +1,75 @@
+<html>
+<head>
+<title>loacation</title>
+<style>
+body {
+font-family: Arial;
+text-align: center;
+background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210731/pngtree-philippines-flag-background-image_756017.jpg");
+background-repeat: no-repeat;
+ background-size: cover;
+}
+h1 {
+color: rgb(28, 28, 66);
+}
+img {
+width: 500px;
+height: 300px;
+border: 5px solid white;
+border-radius: 15px;
+
+transition: 0.5s;
+
+filter: none;
+}
+
+img:hover {
+transform: scale(1.05);
+}
+button {
+padding: 15px 20px;
+margin: 5px;
+cursor: pointer;
+background-color: rgb(0, 53, 0);
+color: rgb(242, 255, 168);
+border: none;
+border-radius: 5px;
+}
+button:hover {
+background-color: rgb(65, 147, 255);
+}
+iframe {
+border: 5px solid white;
+border-radius: 15px;
+}
+button {
+padding: 10px 20px;
+margin: 5px;
+background-color: navy;
+color: white;
+border: none;
+cursor: pointer;
+border-radius: 5px;
+}
+
+button:hover {
+background-color: orange;
+}
+</style>
+</head>
+<body>
+<script>
+document.writeln("<h1>location hi</h1>");
+document.writeln("<img id='pou' src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAGPqsAkTsiIKjQ0S3zMWNB_AKqL6Dl6Jz8lOZWAEBXA&s=10'>");
+document.writeln("<br><br>"); document.writeln("<button onclick=\"document.getElementById('pou').src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAGPqsAkTsiIKjQ0S3zMWNB_AKqL6Dl6Jz8lOZWAEBXA&s=10'\">IMAGE 1</button>");
+document.writeln("<button onclick=\"document.getElementById('pou').src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkXbe0EnrPkqwQaO76phm3eIKvt7Q6mD9LxruC5H3ndg&s=10'\">IMAGE 2</button>");
+document.writeln("<button onclick=\"document.getElementById('pou').src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwCtiqJEl4kJsLt_KlAhVtxAUomGNlzYVGg-X4x7GrTg&s=10'\">IMAGE 3</button>");
+document.writeln("<button onclick=\"document.getElementById('pou').src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQKChsioIRBWa0-haazA45k66JbTzEf_f42Qgqs8Q5vrQ&s=10'\">IMAGE 4</button>");
+document.writeln("<br><br>"); document.writeln("<button onclick=\"document.getElementById('pou').style.filter='blur(5px)'\">Inject</button>");
+document.writeln("<button onclick=\"document.getElementById('pou').style.filter='grayscale(100%)'\">Inject</button>");
+document.writeln("<button onclick=\"document.getElementById('pou').style.filter='brightness(0%)'\">Inject</button>");
+document.writeln("<button onclick=\"document.getElementById('pou').style.filter='invert(100%)'\">Inject</button>");
+document.writeln("<button onclick=\"document.getElementById('pou').style.filter='none'\">NORMAL</button>");
+</script>
+</body>
+</html>
